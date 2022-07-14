@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "nodemon --ext js --exec '/node_modules/.bin/jasmine'",
+    "test1": "nodemon ./node_modules/jasmine/bin/jasmine.js --random=true"
+  },
+  "devDependencies": {
+    "jasmine": "^4.2.1",
+    "nodemon": "^2.0.19"
+  }
+}
