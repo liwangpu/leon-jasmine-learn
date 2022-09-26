@@ -1,10 +1,29 @@
 {
+  "name": "leon-jasmine-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "nodemon --ext js --exec '/node_modules/.bin/jasmine'",
-    "test1": "nodemon ./node_modules/jasmine/bin/jasmine.js --random=true"
+    "start": "yarn test",
+    "test": "karma start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "lodash": "^4.17.21",
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
-    "jasmine": "^4.2.1",
-    "nodemon": "^2.0.19"
+    "@types/jasmine": "~4.3.0",
+    "@types/lodash": "^4.14.157",
+    "jasmine-core": "~4.4.0",
+    "karma": "~6.4.1",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "karma-typescript": "5.5.3",
+    "typescript": "~4.6.2"
   }
 }
